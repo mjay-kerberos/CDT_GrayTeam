@@ -1,0 +1,33 @@
+/* ProductGrid.css */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust based on your preference */
+  gap: 20px; /* Space between items */
+  padding: 20px; /* Padding around the grid */
+}
+
+.product-item {
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Ensures content fits within the borders */
+}
+
+.product-image {
+  width: 100%; /* Make image fill the container */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without stretching */
+}
+
+.product-info {
+  padding: 10px; /* Padding inside product info area */
+}
+
+.product-name {
+  margin: 0;
+  font-size: 1.1em; /* Adjust size as needed */
+}
+
+.product-price {
+  margin: 5px 0 0; /* Only margin-top */
+  font-weight: bold;
+}

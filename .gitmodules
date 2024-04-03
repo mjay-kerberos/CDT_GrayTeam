@@ -1,0 +1,3 @@
+[submodule "Shop/GrayShop"]
+	path = Shop/GrayShop
+	url = https://github.com/mjay-kerberos/GrayShop.git

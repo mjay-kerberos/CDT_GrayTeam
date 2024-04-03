@@ -1,0 +1,28 @@
+@import './fonts.css';
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #e8d9c3; /* Sandy beige color */
+  font-family: 'DroidobeshDepot', sans-serif; /* Default font */
+}
+
+.navbar, .menu-item {
+  font-family: 'DroidobeshDepot', sans-serif;
+}
+
+.title {
+  font-family: 'SfDistantGalaxyOutline', sans-serif;
+}
+
+.title-symbols {
+  font-family: 'SfDistantGalaxySymbols', sans-serif;
+}
+
+.product-title {
+  font-family: 'SfDistantGalaxyAlternate', sans-serif;
+}
+
+.product-symbols {
+  font-family: 'SfDistantGalaxySymbols', sans-serif;
+  font-size: smaller;
+}
